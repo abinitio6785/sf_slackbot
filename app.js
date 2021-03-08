@@ -59,7 +59,7 @@ app.event('app_mention', async ({ event, client }) => {
 
 (async () => {
 	try {
-		await app.start(process.env.PORT || 3000);
+		await app.start(process.env.PORT || 5082);
 		console.log('Solbot is running!');
 	} catch (error) {
 		console.log(error);
