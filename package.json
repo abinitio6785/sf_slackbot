@@ -1,0 +1,19 @@
+{
+	"name": "sf_slackbot",
+	"version": "1.0.0",
+	"description": "Create a slackbot to add slash command to initiate a modal and save data to salesforce",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@slack/bolt": "^3.2.0",
+		"axios": "^0.21.1",
+		"dotenv": "^8.2.0",
+		"jsonwebtoken": "^8.5.1",
+		"query-string": "^6.14.0"
+	}
+}
